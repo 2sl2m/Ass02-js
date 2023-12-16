@@ -1,22 +1,31 @@
-h1{
-    text-align: center;
-  padding:30px;
-  font-size: 200px;
-  font-family: Impact;
- 
+.bookmark h2{
+  font-family: "Righteous", cursive;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-p{
-    font-size: 35px;
+.py-2{
+  text-align: center;
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  color: #352e28;
+
 }
 
-button{
-    width: 250px;
-    height: 80px;
-    background-color: blue;
-    color: white;
+section{
+  min-height: 100vh;
+  background-color: #f7ecde;
 }
 
-button:hover{
-  background-color: green;
+#submitBtn{
+  background-color: #d1512d;
+  color: white;
+}
+#submitBtn:hover {
+  color: white;
+  background-color: rgb(172, 101, 101);
 }
